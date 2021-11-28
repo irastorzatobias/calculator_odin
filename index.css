@@ -38,7 +38,7 @@ body {
     margin-bottom: 0.5rem;
     height: 80px;
     text-align: right;
-    background-color: #837777;
+    background-color: #a4af77;
     color: var(--black);
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
@@ -83,7 +83,12 @@ body {
 }
 
 button:hover {
-    background: rgba(65, 52, 52, 0.514);
+    box-shadow: 0px 5px 1px rgba(65, 52, 52, 0.514);
+    transform: translateY(-0.1rem);
+}
+
+button:active {
+    transform: translateY(0.1rem);
 }
 
 button.allclear{
