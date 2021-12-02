@@ -90,7 +90,7 @@ button:hover {
 }
 
 .btn:hover {
-    background-color: #111;
+    
     transform: translateY(-2px);
 }
 
@@ -101,7 +101,7 @@ button:hover {
 }
 
 button:active {
-    transform: translateY(0.2rem);
+    transform: translateY(0.3rem);
 }
 
 button.allclear{
